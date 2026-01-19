@@ -66,3 +66,5 @@ jobs:
       - name: Destruction Complete
         run: |
           echo "✅ Environment ${{ github.event.inputs.environment }} has been destroyed!"
+
+# Make it executable

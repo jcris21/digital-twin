@@ -83,4 +83,6 @@ Write-Host "Infrastructure for $Environment has been destroyed!" -ForegroundColo
 Write-Host ""
 Write-Host "  To remove the workspace completely, run:" -ForegroundColor Cyan
 Write-Host "   terraform workspace select default" -ForegroundColor White
-Write-Host "   terraform workspace delete $Environment" -ForegroundColor White
+Write-Host "   terraform workspace delete $Environment" -ForegroundColor White 
+
+# Make it executable

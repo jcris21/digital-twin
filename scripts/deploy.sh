@@ -61,3 +61,5 @@ if [ -n "$CUSTOM_URL" ]; then
   echo "🔗 Custom domain  : $CUSTOM_URL"
 fi
 echo "📡 API Gateway    : $API_URL"
+
+# Make it executable

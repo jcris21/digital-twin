@@ -60,3 +60,6 @@ if ($CustomUrl) {
     Write-Host "Custom domain  : $CustomUrl" -ForegroundColor Cyan
 }
 Write-Host "API Gateway    : $ApiUrl" -ForegroundColor Cyan
+
+
+# Make it executable
