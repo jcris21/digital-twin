@@ -62,4 +62,4 @@ if ($CustomUrl) {
 Write-Host "API Gateway    : $ApiUrl" -ForegroundColor Cyan
 
 
-# Make it executable
+# Make it executable now
