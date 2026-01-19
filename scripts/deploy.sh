@@ -62,4 +62,4 @@ if [ -n "$CUSTOM_URL" ]; then
 fi
 echo "📡 API Gateway    : $API_URL"
 
-# Make it executable
+# Make it executable now now now
