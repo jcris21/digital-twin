@@ -153,8 +153,8 @@ cd twin
 rm -rf frontend/.git backend/.git 2>/dev/null
 
 # Initialize git repository with main as the default branch
-it init -b main
-g
+git init -b main
+
 # If you get an error that -b is not supported (older Git versions), use:
 # git init
 # git checkout -b main
