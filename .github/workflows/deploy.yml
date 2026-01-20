@@ -99,4 +99,4 @@ jobs:
           echo "📡 API Gateway: ${{ steps.deploy_outputs.outputs.api_url }}"
           echo "🪣 Frontend Bucket: ${{ steps.deploy_outputs.outputs.frontend_bucket }}"
 
-# Make it executable now now now now now now now now nownow now#
+# Make it executable now now now now now now now now nownow now now#
