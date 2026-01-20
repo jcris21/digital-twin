@@ -11,7 +11,7 @@ cd "$(dirname "$0")/.."        # project root
 echo "📦 Building Lambda package..."
 (cd backend && uv run deploy.py)
 
-# 2. Terraform workspace & apply
+# 2. Terraform workspace & apply here
 cd terraform
 AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
 AWS_REGION=${DEFAULT_AWS_REGION:-us-east-1}
