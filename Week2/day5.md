@@ -842,7 +842,7 @@ This file tells Terraform to use S3 for state storage, but doesn't specify the b
 
 **Secret 2: DEFAULT_AWS_REGION**
 - Name: `DEFAULT_AWS_REGION`
-- Value: `-east-1us` (or your preferred region)
+- Value: `us-east-1` (or your preferred region)
 
 **Secret 3: AWS_ACCOUNT_ID**
 - Name: `AWS_ACCOUNT_ID`
