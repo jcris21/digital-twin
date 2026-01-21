@@ -1390,7 +1390,7 @@ git add frontend/components/twin.tsx
 git add frontend/public/avatar.png  # Only if you added an avatar
 
 # Commit
-git commit -m "Fix input focus issue and add avatar support"
+  git commit -m "Fix input focus issue and add avatar support"
 
 # Push to trigger deployment
 git push
